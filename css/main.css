@@ -14,14 +14,13 @@ body {
   position: fixed;
   top: 20px;
   left: 20px;
-  z-index: 9999;
 }
 
 .header__title {
   text-align: center;
   position: relative;
   padding: 50px;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
 }
 
 .header__title__text {
@@ -30,34 +29,11 @@ body {
 }
 
 /**** MAIN ****/
-
-/**** INTRO ****/
-.intro {
+.left {
   width: 100vw;
   overflow-x: hidden;
 }
 
-.intro__text {
-  margin: 0;
-}
-
-.line__one {
-  position: relative;
-  transform: translate(11vw, 2vh);
-  line-height: 30px;
-}
-
-.line__two {
-  position: relative;
-  transform: translate(50vw, 20vh);
-}
-
-.line__three {
-  position: relative;
-  transform: translate(450px, 667px);
-}
-
-/**** IMAGES ****/
 .left div {
   margin-bottom: 50vh;
 }
@@ -67,6 +43,7 @@ body {
   bottom: 0;
   right: 0;
   max-width: 100%;
+  pointer-events: none;
 }
 
 .right div {
@@ -84,39 +61,51 @@ body {
   margin-right: auto;
 }
 
-.push__one {
+.text__one {
+  text-align: left;
   position: relative;
-  transform: translate(-180px, 79px);
+  transform: translate(-21vw, 4vh);
+  line-height: 30px;
+}
+
+.text__two {
+  position: relative;
+  transform: translate(15vw, 25vh);
+}
+
+.text__three {
+  position: relative;
+  transform: translate(-3vw, 95vh);
+}
+
+.text__four {
+  position: relative;
+  transform: translate(-12vw, 11vh);
   color: whitesmoke;
 }
+
 .duo__one {
   width: 50%;
 }
 
-.push__two {
+.text__five {
   position: relative;
-  transform: translate(195px, -24px);
+  transform: translate(12vw, -3vh);
 }
 
 .duo__two {
   width: 50%;
-  transform: translate(195px, -24px);
-}
-
-.push__three {
-  position: relative;
-  transform: translate();
+  transform: translate(13vw, -3vh);
 }
 
 /**** HORIZONTAL ONE****/
 .horizontal__one {
   position: relative;
-  padding-bottom: 50px;
+  z-index: 1;
 }
 
 .horizontal__one div {
-  margin-top: 100px;
-  margin-bottom: 30vh;
+  margin-top: 20px;
 }
 
 .horizontal__one img {
@@ -134,53 +123,56 @@ body {
 
 .horizontal__gallery img {
   max-width: 150%;
-  transform: translate(0px, 0px);
 }
 
 /**** STORY TWO  ****/
-.story-section__two img {
-  max-width: 45%;
+.story-section__two {
   text-align: center;
   width: 500px;
-  text-align: center;
   margin-left: auto;
   margin-right: auto;
 }
 
 .big-quote {
   text-align: center;
-  width: 100%;
   margin-bottom: 300px;
   line-height: 70px;
   padding-top: 100px;
 }
 
+.swans {
+  width: 130%;
+  position: relative;
+  transform: translate(-32vw, 0vh);
+}
+
 .trio {
-  transform: translate(60vw, -120vh);
-  width: 40%;
+  width: 50%;
+  position: relative;
+  transform: translate(15vw, -120vh);
+  z-index: 1;
 }
 
-.push__four {
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+.text__seven {
+  position: relative;
+  transform: translate(-8vw, -40vh);
 }
 
+.kruis {
+  position: relative;
+  transform: translate();
+}
 .groen {
-  width: 30%;
-  margin-bottom: 50vh;
+  width: 40%;
+  position: relative;
   transform: translate(537px, -850px);
 }
 
-.push__five {
+.text__eight {
+  position: relative;
   transform: translate(360px, 0px);
 }
 
-.push__six {
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-}
 .doping {
   width: 50%;
   text-align: center;
