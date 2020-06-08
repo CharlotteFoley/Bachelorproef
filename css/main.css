@@ -2,6 +2,7 @@ img {
   max-width: 100%;
 }
 body {
+  margin: 0;
   font-family: menlo;
   font-size: 15px;
 }
@@ -31,10 +32,9 @@ body {
 /**** MAIN ****/
 
 /**** INTRO ****/
-main {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
+.intro {
+  width: 100vw;
+  overflow-x: hidden;
 }
 
 .intro__text {
@@ -49,7 +49,7 @@ main {
 
 .line__two {
   position: relative;
-  transform: translate(693px, 166px);
+  transform: translate(25vw, 166px);
 }
 
 .line__three {
@@ -58,18 +58,15 @@ main {
 }
 
 /**** IMAGES ****/
-/**** VERTICAL ONE ****/
-.container__vertical__one {
+/**** STORY ONE ****/
+.story-section__one {
   text-align: center;
-  width: 100%;
-}
-
-.left {
   width: 500px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
 }
+
 .push__one {
   position: relative;
   transform: translate(-180px, 79px);
@@ -111,18 +108,18 @@ main {
   padding-left: 350px;
 }
 
-/**** HORIZONTAL ****/
-.container__horizontal__one {
+/**** HORIZONTAL ONE****/
+.horizontal__one {
   position: relative;
   padding-bottom: 50px;
 }
 
-.container__horizontal__one div {
+.horizontal__one div {
   margin-top: 100px;
   margin-bottom: 30vh;
 }
 
-.container__horizontal__one img {
+.horizontal__one img {
   max-width: 50%;
   margin-left: 40px;
 }
@@ -132,7 +129,7 @@ main {
   display: flex;
   overflow-x: auto;
   top: 20px;
-  max-width: 1200px;
+  width: 100vw;
 }
 
 .horizontal__gallery img {
@@ -140,12 +137,17 @@ main {
   transform: translate(0px, 0px);
 }
 
-/**** VERTICAL TWO  ****/
-.container__vertical__two img {
+/**** STORY TWO  ****/
+.story-section__two img {
   max-width: 45%;
+  text-align: center;
+  width: 500px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.push__four {
+.big-quote {
   text-align: center;
   width: 100%;
   margin-bottom: 300px;
@@ -154,11 +156,11 @@ main {
 }
 
 .trio {
-  transform: translate(620px, -557px);
+  transform: translate(60vw, -120vh);
   width: 40%;
 }
 
-.push__five {
+.push__four {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -170,11 +172,11 @@ main {
   transform: translate(537px, -850px);
 }
 
-.push__six {
+.push__five {
   transform: translate(360px, 0px);
 }
 
-.push__seven {
+.push__six {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
