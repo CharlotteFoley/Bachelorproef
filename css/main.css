@@ -43,13 +43,13 @@ body {
 
 .line__one {
   position: relative;
-  transform: translate(162px, 14px);
+  transform: translate(11vw, 2vh);
   line-height: 30px;
 }
 
 .line__two {
   position: relative;
-  transform: translate(25vw, 166px);
+  transform: translate(50vw, 20vh);
 }
 
 .line__three {
@@ -58,9 +58,26 @@ body {
 }
 
 /**** IMAGES ****/
+.left div {
+  margin-bottom: 50vh;
+}
+
+.right {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  max-width: 100%;
+}
+
+.right div {
+  margin-bottom: 50vh;
+  max-width: 50%;
+  padding-left: 350px;
+}
+
 /**** STORY ONE ****/
 .story-section__one {
-  text-align: center;
+  margin-top: 0;
   width: 500px;
   text-align: center;
   margin-left: auto;
@@ -89,23 +106,6 @@ body {
 .push__three {
   position: relative;
   transform: translate();
-}
-
-.right {
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  max-width: 100%;
-}
-
-.left div {
-  margin-bottom: 50vh;
-}
-
-.right div {
-  margin-bottom: 50vh;
-  max-width: 50%;
-  padding-left: 350px;
 }
 
 /**** HORIZONTAL ONE****/
