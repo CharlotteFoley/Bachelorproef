@@ -1,12 +1,9 @@
-* {
-  box-sizing: border-box;
-}
 img {
   max-width: 100%;
 }
 body {
   font-family: menlo;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 /**** HEADER ****/
@@ -115,17 +112,17 @@ main {
 }
 
 /**** HORIZONTAL ****/
-.container__horizontal {
+.container__horizontal__one {
   position: relative;
   padding-bottom: 50px;
 }
 
-.container__horizontal div {
+.container__horizontal__one div {
   margin-top: 100px;
   margin-bottom: 30vh;
 }
 
-.container__horizontal img {
+.container__horizontal__one img {
   max-width: 50%;
   margin-left: 40px;
 }
@@ -157,7 +154,7 @@ main {
 }
 
 .trio {
-  transform: translate(620px, -501px);
+  transform: translate(620px, -557px);
   width: 40%;
 }
 
@@ -170,7 +167,7 @@ main {
 .groen {
   width: 30%;
   margin-bottom: 50vh;
-  transform: translate(547px, -850px);
+  transform: translate(537px, -850px);
 }
 
 .push__six {
@@ -181,9 +178,9 @@ main {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  writing-mode: vertical-lr;
 }
 .doping {
+  width: 50%;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
