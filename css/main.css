@@ -32,6 +32,7 @@ body {
 .left {
   width: 100vw;
   overflow-x: hidden;
+  position: relative;
 }
 
 .left div {
@@ -133,11 +134,13 @@ body {
   margin-right: auto;
 }
 
+.story-section__two div {
+  margin-bottom: 25vh;
+}
 .big-quote {
   text-align: center;
   margin-bottom: 300px;
   line-height: 70px;
-  padding-top: 100px;
 }
 
 .swans {
