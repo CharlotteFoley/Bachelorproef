@@ -116,7 +116,7 @@ body {
   margin-left: 40px;
 }
 
-.horizontal__gallery {
+.horizontal__gallery__one {
   position: absolute;
   display: flex;
   overflow-x: auto;
@@ -124,7 +124,7 @@ body {
   width: 100vw;
 }
 
-.horizontal__gallery img {
+.horizontal__gallery__one img {
   max-width: 150%;
 }
 
@@ -206,15 +206,41 @@ body {
   z-index: 1;
 }
 
-.red {
-  position: relative;
-  transform: translate(0vw, -140vh);
+.doop img {
+  width: 30%;
 }
 
-.text__nine {
+.breathe {
+  letter-spacing: 4rem;
+}
+
+.doop {
   position: relative;
-  transform: translate();
-  line-height: 50px;
+  transform: translate(11vw, -150vh);
+  line-height: 70px;
+}
+
+/**** HORIZONTAL TWO  ****/
+.horizontal__two {
+  position: relative;
+  transform: translate(0vw, -150vh);
+  display: flex;
+}
+
+.horizontal__two img {
+  display: flex;
+}
+
+.horizontal__gallery__two {
+  position: absolute;
+  display: flex;
+  overflow-x: auto;
+  top: 20px;
+  width: 100vw;
+}
+
+.horizontal__gallery__two img {
+  max-width: 80%;
 }
 
 /**** STORY THREE  ****/
@@ -230,11 +256,6 @@ body {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-}
-/**** HORIZONTAL TWO  ****/
-.horizontal__two img {
-  display: flex;
-  justify-content: right;
 }
 
 /**** RIGHT  ****/
