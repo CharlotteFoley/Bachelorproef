@@ -53,6 +53,7 @@ body {
   padding-left: 350px;
 }
 
+/**** LEFT  ****/
 /**** STORY ONE ****/
 .story-section__one {
   margin-top: 0;
@@ -135,8 +136,9 @@ body {
 }
 
 .story-section__two div {
-  margin-bottom: 25vh;
+  margin-bottom: 0vh;
 }
+
 .big-quote {
   text-align: center;
   margin-bottom: 300px;
@@ -152,28 +154,74 @@ body {
 .trio {
   width: 50%;
   position: relative;
-  transform: translate(15vw, -120vh);
+  transform: translate(15vw, -80vh);
   z-index: 1;
+}
+
+.kleitrio {
+  position: relative;
+  transform: translate(20vw, -60vh);
 }
 
 .text__seven {
   position: relative;
-  transform: translate(-8vw, -40vh);
-}
-
-.kruis {
-  position: relative;
-  transform: translate();
-}
-.groen {
-  width: 40%;
-  position: relative;
-  transform: translate(537px, -850px);
+  transform: translate(-7vw, -10vh);
 }
 
 .text__eight {
   position: relative;
-  transform: translate(360px, 0px);
+  transform: translate(15vw, -110vh);
+}
+
+.kruis__one {
+  position: relative;
+  transform: translate(-1vw, -70vh);
+}
+
+.kruis {
+  position: relative;
+  transform: translate(0vw, -90vh);
+}
+
+.kruis__two {
+  position: relative;
+  transform: translate(-10vw, -148vh);
+}
+
+.kruis__three {
+  position: relative;
+  transform: translate(8vw, -152vh);
+}
+
+.kruis__four {
+  position: relative;
+  transform: translate(-1vw, -115vh);
+}
+
+.bless {
+  position: relative;
+  transform: translate(-30vw, -130vh);
+  width: 160%;
+  z-index: 1;
+}
+
+.red {
+  position: relative;
+  transform: translate(0vw, -140vh);
+}
+
+.text__nine {
+  position: relative;
+  transform: translate();
+  line-height: 50px;
+}
+
+/**** STORY THREE  ****/
+.story-section__three {
+  text-align: center;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .doping {
@@ -182,5 +230,12 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+/**** HORIZONTAL TWO  ****/
+.horizontal__two img {
+  display: flex;
+  justify-content: right;
+}
+
+/**** RIGHT  ****/
 
 /**** FOOTER ****/
